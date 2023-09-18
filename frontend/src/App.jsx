@@ -1,10 +1,10 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Home from './components/Home.jsx'
-import CreateBooks from './components/CreateBooks.jsx'
-import ShowBook from './components/ShowBook.jsx'
-import EditBook from './components/EditBook.jsx'
-import DeleteBook from './components/DeleteBook.jsx'
+import Home from './pages/Home.jsx'
+import CreateBooks from './pages/CreateBooks.jsx'
+import ShowBook from './pages/ShowBook.jsx'
+import EditBook from './pages/EditBook.jsx'
+import DeleteBook from './pages/DeleteBook.jsx'
 
 const App = () => {
   return (
