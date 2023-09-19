@@ -22,7 +22,7 @@ const ShowBook = () => {
         console.log(error)
       })
 
-  }, [])
+  }, [id])
 
   return (
     <div className='p-4'>
